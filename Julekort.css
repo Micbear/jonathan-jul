@@ -1,0 +1,68 @@
+body {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    background-image: url("julekule.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(190, 24, 24);
+}
+
+p {
+    color:rgb(8, 168, 30)
+}
+
+#laDetsnø {
+    position: absolute;
+    top:0;
+    opacity: 0;
+    z-index: -1;
+}
+
+#viDeo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.blink_me {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+
+    33% {
+        color: rgb(190, 24, 24) ;
+    }
+
+    66% {
+        color: rgb(3, 71, 12);
+    }
+
+    100% {
+        color: blue;
+    }
+
+}
+
+div {
+    font-size: 60px;
+}
+
+h3 {
+    color: red;
+}
+button {
+    color: rgb(3, 71, 12);
+}
